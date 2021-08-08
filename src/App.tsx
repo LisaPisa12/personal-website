@@ -1,7 +1,14 @@
 import React from "react";
 import HomePage from "./Components/Homepage";
+import Navbar from "./Components/Navbar";
+
 const App: React.FC = () => {
-  return <HomePage />;
+  return (
+    <>
+      <Navbar />
+      <HomePage />
+    </>
+  );
 };
 
 export default App;

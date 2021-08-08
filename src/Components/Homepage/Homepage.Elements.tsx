@@ -62,3 +62,24 @@ export const NameLink = styled.a`
     content: "Contact";
   }
 `;
+
+export const DoorLink = styled.div`
+  height: 57%;
+  width: 14%;
+  position: absolute;
+  right: 140px;
+  top: 88px;
+`;
+
+export const TextEnterContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 76px;
+  top: 205px;
+  animation: ${animateUp} 1s;
+  & > svg {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+`;

@@ -5,6 +5,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #fff;
 }
 
 html {
@@ -13,5 +14,5 @@ html {
 
 a {
   text-decoration: none;
-  color: white;
+  color: #fff;
 }
