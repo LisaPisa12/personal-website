@@ -20,6 +20,7 @@ export const MediaContainer = styled.ul`
   align-items: center;
   list-style: none;
   text-align: center;
+  padding: 0 2rem;
   @media screen and (max-width: 960px) {
     display: flex;
     flex-direction: column;
@@ -65,4 +66,10 @@ export const MediaLinks = styled.a`
     width: 100%;
     display: table;
   }
+`;
+
+export const LinkToTop = styled.h1`
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+  font-size: 1.7rem;
 `;

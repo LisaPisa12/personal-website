@@ -1,7 +1,7 @@
 import styled, { keyframes } from "styled-components";
 import background from "../../assets/background.jpg";
 
-const animateUp = keyframes`{
+export const animateUp = keyframes`{
   0% {opacity: 0;transform: translateY(100%);}
 100% {opacity: 1;transform: translateY(0%);}	
 }`;
@@ -78,6 +78,7 @@ export const TextEnterContainer = styled.div`
   right: 76px;
   top: 205px;
   animation: ${animateUp} 1s;
+  color: #fff;
   & > svg {
     height: 1.5rem;
     width: 1.5rem;
