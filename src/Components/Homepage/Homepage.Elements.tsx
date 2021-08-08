@@ -75,7 +75,7 @@ export const TextEnterContainer = styled.div`
   display: flex;
   flex-direction: column;
   position: absolute;
-  right: 76px;
+  right: 155px;
   top: 205px;
   animation: ${animateUp} 1s;
   color: #fff;
