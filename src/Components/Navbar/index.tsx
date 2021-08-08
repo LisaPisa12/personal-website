@@ -23,8 +23,6 @@ const Navbar: React.FC = () => {
     }
   };
 
-  console.log(window.innerHeight);
-
   window.addEventListener("scroll", changeOnScroll);
 
   const scrollToTop = () => {
