@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 export const WorksSection = styled.div`
-  height: 100vh;
-  padding: 2rem;
+  padding: 8rem 4rem;
   background: #f87422;
   color: #fff;
 `;
@@ -29,6 +28,15 @@ export const WorksIntro = styled.p`
   font-size: 1.4rem;
 `;
 
-export const SkillsContainer = styled.div``;
+export const SkillsContainer = styled.div`
+  max-width: 50%;
+  & > svg {
+    height: 2rem;
+    width: 2rem;
+    color: #fff;
+  }
+`;
 
-export const WorksTitle = styled.h3``;
+export const WorksTitle = styled.h2`
+  margin: 0.5rem 0;
+`;

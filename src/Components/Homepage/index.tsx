@@ -21,7 +21,7 @@ const HomePage: React.FC = () => {
           <NameLink href="#contact" />
         </HeaderContainer>
       </Vertical>
-      <a href="#home">
+      <a href="#about">
         <DoorLink />
       </a>
       <TextEnterContainer>

@@ -8,7 +8,10 @@ import {
   SkillsContainer,
   WorksTitle,
 } from "./Works.Elements";
-
+import { ImDatabase } from "react-icons/im";
+import { GrTestDesktop } from "react-icons/gr";
+import { GiTalk } from "react-icons/gi";
+import { GoDeviceDesktop } from "react-icons/go";
 const Works = () => {
   return (
     <WorksSection id="skills">
@@ -24,16 +27,40 @@ const Works = () => {
         </ChildContainer>
         <ChildContainer>
           <SkillsContainer>
-            <WorksTitle>Frontnd</WorksTitle>
+            <GoDeviceDesktop />
+            <WorksTitle>Frontend</WorksTitle>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+              nam harum et ipsa alias ad assumenda, ducimus impedit vel quaerat
+              fugiat animi quidem. Deserunt?
+            </p>
           </SkillsContainer>
           <SkillsContainer>
-            <WorksTitle>backend</WorksTitle>
+            <ImDatabase />
+            <WorksTitle>Backend</WorksTitle>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+              nam harum et ipsa alias ad assumenda, ducimus impedit vel quaerat
+              fugiat animi quidem. Deserunt?
+            </p>
           </SkillsContainer>
           <SkillsContainer>
+            <GiTalk />
             <WorksTitle>fullstack(or communitcation)</WorksTitle>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+              nam harum et ipsa alias ad assumenda, ducimus impedit vel quaerat
+              fugiat animi quidem. Deserunt?
+            </p>
           </SkillsContainer>
           <SkillsContainer>
+            <GrTestDesktop />
             <WorksTitle>Testing</WorksTitle>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+              nam harum et ipsa alias ad assumenda, ducimus impedit vel quaerat
+              fugiat animi quidem. Deserunt?
+            </p>
           </SkillsContainer>
         </ChildContainer>
       </WorksContainer>
