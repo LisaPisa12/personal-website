@@ -7,7 +7,7 @@ export const animateUp = keyframes`{
 }`;
 
 export const HomePageContainer = styled.div`
-  background: url(${background}) no-repeat center center fixed;
+  background: url(${background}) no-repeat center center;
   background-size: cover;
   height: 100vh;
 `;

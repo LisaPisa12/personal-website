@@ -17,8 +17,8 @@ const HomePage: React.FC = () => {
       <Vertical>
         <HeaderContainer>
           <HelloLink href="#about"></HelloLink>
-          <IamLink href="#about" />
-          <NameLink href="#about" />
+          <IamLink href="#skills" />
+          <NameLink href="#contact" />
         </HeaderContainer>
       </Vertical>
       <a href="#about">
