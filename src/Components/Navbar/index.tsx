@@ -8,6 +8,7 @@ import {
 import { FaGithub } from "react-icons/fa";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { VscFilePdf } from "react-icons/vsc";
+import { FiCodepen } from "react-icons/fi";
 
 const Navbar: React.FC = () => {
   const [click, setClick] = useState(false);
@@ -24,6 +25,11 @@ const Navbar: React.FC = () => {
         <MediaItem>
           <MediaLinks href="https://www.joshwcomeau.com/snippets/html/scale-with-pseudoelements/">
             <AiOutlineLinkedin />
+          </MediaLinks>
+        </MediaItem>
+        <MediaItem>
+          <MediaLinks href="https://www.joshwcomeau.com/snippets/html/scale-with-pseudoelements/">
+            <FiCodepen />
           </MediaLinks>
         </MediaItem>
         <MediaItem>
