@@ -3,6 +3,7 @@ import HomePage from "./Components/Homepage";
 import Navbar from "./Components/Navbar";
 import About from "./Components/About";
 import Works from "./Components/Works";
+import Contact from "./Components/Contact";
 
 const App: React.FC = () => {
   return (
@@ -11,6 +12,7 @@ const App: React.FC = () => {
       <HomePage />
       <About />
       <Works />
+      <Contact />
     </>
   );
 };
